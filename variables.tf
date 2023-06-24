@@ -4,5 +4,6 @@ variable "github_org" {
 }
 
 variable "token" {
-  type = string
+  type      = string
+  sensitive = true
 }
