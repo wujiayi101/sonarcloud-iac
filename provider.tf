@@ -16,5 +16,5 @@ terraform {
 
 provider "sonarcloud" {
   organization = var.github_org
-  token        = var.token
+  token        = var.sonarcloud_token
 }
