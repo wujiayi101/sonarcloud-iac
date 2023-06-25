@@ -2,3 +2,6 @@ dotfiles:
   visibility: public
   main_branch: master
 
+new-project:
+  visibility: public
+  main_branch: main
