@@ -5,6 +5,13 @@ terraform {
       version = "0.5.2"
     }
   }
+
+  cloud {
+    organization = "wujiayi"
+    workspaces {
+      name = "sonarcloud-iac"
+    }
+  }
 }
 
 provider "sonarcloud" {
