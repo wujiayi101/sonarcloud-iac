@@ -3,7 +3,7 @@ variable "github_org" {
   default = "wujiayi101"
 }
 
-variable "token" {
+variable "sonarcloud_token" {
   type      = string
   sensitive = true
 }
