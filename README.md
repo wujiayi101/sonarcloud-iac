@@ -1,5 +1,5 @@
 # sonarcloud-iac
 
-Terraform IaC to create SonarCloud Projects
+SonarCloud Projects IaC
 
 Define your projects in `projects.yaml` file
