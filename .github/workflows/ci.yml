@@ -15,4 +15,4 @@ jobs:
       - name: Terraform fmt
         id: fmt
         run: exit 1
-        continue-on-error: true
+
