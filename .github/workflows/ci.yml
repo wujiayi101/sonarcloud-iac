@@ -14,5 +14,5 @@ jobs:
       - uses: hashicorp/setup-terraform@v2
       - name: Terraform fmt
         id: fmt
-        run: terraform fmt -check
+        run: exit 1
         continue-on-error: true
