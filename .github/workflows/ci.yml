@@ -16,3 +16,4 @@ jobs:
         id: fmt
         run: terraform fmt -check
         continue-on-error: true
+        
